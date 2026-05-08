@@ -96,4 +96,6 @@ figure {
     animation-timing-function: linear;
     animation-delay: 60s;
     animation-iteration-count: 1;
+
+    z-index: 1;
 }
