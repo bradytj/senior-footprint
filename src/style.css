@@ -76,3 +76,20 @@ figure {
         text-transform: uppercase;
     }
 }
+
+@keyframes freddy {
+    from { left: 1vw; }
+    to { left: -1vw; }
+}
+
+#freddy {
+    position: fixed;
+    top: 0;
+    left: 1vw;
+
+    animation-name: freddy;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 60s;
+    animation-iteration-count: 1;
+}
