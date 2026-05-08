@@ -78,21 +78,21 @@ figure {
 }
 
 @keyframes freddy {
-    from { left: 1vw; }
-    to { left: -1vw; }
+    from { left: 100vw; }
+    to { left: -100vw; }
 }
 
 #freddy {
     position: fixed;
-    width: 1vw;
-    height: 1vh;
+    width: 100vw;
+    height: 100vh;
     object-fit: contain;
     
     top: 0;
-    left: 1vw;
+    left: 100vw;
 
     animation-name: freddy;
-    animation-duration: 10s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-delay: 60s;
     animation-iteration-count: 1;
