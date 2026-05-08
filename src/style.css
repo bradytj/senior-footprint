@@ -84,6 +84,10 @@ figure {
 
 #freddy {
     position: fixed;
+    width: 1vw;
+    height: 1vh;
+    object-fit: contain;
+    
     top: 0;
     left: 1vw;
 
