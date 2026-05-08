@@ -37,6 +37,10 @@ dt {
     font-weight: bold;
 }
 
+video {
+    width: 100%;
+}
+
 figure {
     display: grid;
     margin: 32px auto;
