@@ -1,5 +1,64 @@
+@import url(./ibm-plex-sans.css);
+
+@font-face {
+    font-family: "Christmas Kitchen";
+    src: url(./res/christmas-kitchen.ttf);
+}
+
 body {
-    background-image: linear-gradient(to right, #65F, #79F);
+    margin: 0;
+    padding: 32px max(30%, 64px);
+
+    font-family: "IBM Plex Sans";
+
+    background-image: linear-gradient(to right, #0c1b44, #124f94);
     background-size: cover;
     background-attachment: fixed;
+
+    color: white;
+}
+
+hgroup {
+    border-bottom: 1px solid #FFF2;
+}
+
+section {
+    position: relative;
+    border-top: 1px solid #FFF2;
+}
+
+figure {
+    display: grid;
+    margin: 32px auto;
+    padding: 4px;
+    width: fit-content;
+
+    background-color: white;
+
+    filter: drop-shadow(#0002 0 10px 10px);
+    transform: rotate(3deg);
+    
+    img {
+        width: 256px;
+        height: 256px;
+    }
+
+    figcaption {
+        width: 100%;
+        max-width: 256px;
+        height: 2lh;
+
+        font-family: "Christmas Kitchen";
+        font-size: 1.5em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        background-color: lightgrey;
+        color: black;
+
+        text-transform: uppercase;
+    }
 }
